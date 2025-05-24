@@ -54,7 +54,6 @@ DepthForge
 ├── ...
 ├── checkpoints
 │   ├── dinov2_vitl14_pretrain.pth
-│   ├── dinov2_rein_and_head.pth
 │   ├── depth_anything_v2_vitl.pth
 │   ├── dinov2_converted.pth
 ├── data
