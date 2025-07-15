@@ -1,4 +1,4 @@
-# Stronger, Steadier & Superior: Geometric Consistency in Depth VFM Forges Domain Generalized Semantic Segmentation
+# [ICCV 2025] Stronger, Steadier & Superior: Geometric Consistency in Depth VFM Forges Domain Generalized Semantic Segmentation
 
 ## Installation & Environment Setup
 
