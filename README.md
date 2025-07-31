@@ -179,25 +179,25 @@ To evaluate a trained model, replace `<DepthForge model>.pth` with your model fi
 - **Evaluation with GTAV-based Configuration:**
 
   ```
-  python tools/test.py configs/dinov2/depthforge_dinov2_mask2former_512x512_bs1x4.py <DepthForge model>.pth --backbone checkpoints/dinov2_converted.pth
+  python tools/test.py configs/dinov2/depthforge_dinov2_mask2former_512x512_bs1x4.py <DepthForge model>.pth --backbone checkpoints/dinov2_converted_depth.pth
   ```
 
 - **Evaluation with Cityscapes-based Configuration:**
 
   ```
-  python tools/test.py configs/dinov2/depthforge_dinov2_mask2former_512x512_bs1x4_citys.py <DepthForge model>.pth --backbone checkpoints/dinov2_converted.pth
+  python tools/test.py configs/dinov2/depthforge_dinov2_mask2former_512x512_bs1x4_citys.py <DepthForge model>.pth --backbone checkpoints/dinov2_converted_depth.pth
   ```
 
 - **Evaluation with DepthForge V2 Cityscapes Configuration:**
 
   ```
-  python tools/test.py configs/dinov2/depthforgev2_dinov2_mask2former_512x512_bs1x4_citys.py <DepthForge model>.pth --backbone checkpoints/dinov2_converted.pth
+  python tools/test.py configs/dinov2/depthforgev2_dinov2_mask2former_512x512_bs1x4_citys.py <DepthForge model>.pth --backbone checkpoints/dinov2_converted_depthv2.pth
   ```
 
 - **Evaluation with DepthForge V2 GTAV Configuration:**
 
   ```
-  python tools/test.py configs/dinov2/depthforgev2_dinov2_mask2former_512x512_bs1x4.py <DepthF
+  python tools/test.py configs/dinov2/depthforgev2_dinov2_mask2former_512x512_bs1x4.py <DepthForge model>.pth --backbone checkpoints/dinov2_converted_depthv2.pth
   ```
 
 ## Acknowledgment
